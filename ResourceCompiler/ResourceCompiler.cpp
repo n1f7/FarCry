@@ -720,7 +720,7 @@ void RegisterConvertors( IResourceCompiler *rc )
 void TestMatEntityNameTokenizer ()
 {
 	char szMatName[1024];
-	while (gets (szMatName))
+	while (gets_s (szMatName, sizeof(szMatName)))
 	{
 		CMatEntityNameTokenizer mt;
 		mt.tokenize(szMatName);

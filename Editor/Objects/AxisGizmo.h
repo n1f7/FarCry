@@ -26,7 +26,7 @@ public:
 	//////////////////////////////////////////////////////////////////////////
 	void DrawAxis( DisplayContext &dc );
 
-	static GetGlobalAxisGizmoCount() { return m_axisGizmoCount; }
+	static int GetGlobalAxisGizmoCount() { return m_axisGizmoCount; }
 
 private:
 	void OnObjectEvent( CBaseObject *object,int event );

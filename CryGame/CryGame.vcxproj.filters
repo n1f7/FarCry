@@ -1,0 +1,608 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{fd240797-5418-48bb-8fd5-1c279f490f08}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\UI">
+      <UniqueIdentifier>{3a7751e8-08ea-4f27-816b-f842d4442aec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ScriptObjects">
+      <UniqueIdentifier>{606c9b52-4c4d-44a9-a8f0-fe7b9d13fd81}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameServer">
+      <UniqueIdentifier>{c9322184-1ca5-404e-bd0b-47d9b27eeea8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSystem">
+      <UniqueIdentifier>{10536214-3751-4902-abeb-1e36a61c41e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Weapons">
+      <UniqueIdentifier>{612e58ef-ca3a-4f86-b488-048dcb7f170c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameClient">
+      <UniqueIdentifier>{ac5bc77d-a3df-4f60-be8e-18748785f161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Flock">
+      <UniqueIdentifier>{1738852b-4d52-4255-b2d8-9e829fbccda5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Vehicle">
+      <UniqueIdentifier>{86ecf51f-906f-4283-8dcf-d6d5afd0ab0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\TimeDemoRecorder">
+      <UniqueIdentifier>{ad9adc72-5425-4dd3-adc2-840164c8cf8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Player">
+      <UniqueIdentifier>{038f89f7-0974-48a1-a054-d91172ba91b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\AI">
+      <UniqueIdentifier>{d1cbf61c-17a4-47de-8ae4-393187e102de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Network">
+      <UniqueIdentifier>{9eeb102a-962b-497a-b03b-61a8ce98a48e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameFiles">
+      <UniqueIdentifier>{5b0806aa-8f45-4d88-8548-58272adb265b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Materials">
+      <UniqueIdentifier>{1ecc44f8-417e-4cd2-b37e-0748971577fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Localization">
+      <UniqueIdentifier>{8102f797-83a7-4650-927f-f2a521203b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\GameSerialization">
+      <UniqueIdentifier>{0824acae-852c-49e1-a087-b160c4bcab5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scoreboard">
+      <UniqueIdentifier>{00ab8d8c-9f9c-46e0-b643-58ab05dbf770}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5e5fbe99-fd66-4275-b0cb-643f4a46f57a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Weapons">
+      <UniqueIdentifier>{72ac3c13-5309-4e63-bce4-db2b7b44c44d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ScriptObjects">
+      <UniqueIdentifier>{d214d1c0-4943-4948-8b61-a618489a9b41}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{03c3d98f-d6c4-4299-8821-b5edd04e19de}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CryGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IngameDialog.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectUI.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UICheckBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComboBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UICVars.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDivX_Video.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEditBox.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIHud.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIListView.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScreen.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScrollBar.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIStatic.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UISystem.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIVideoPanel.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWidget.cpp">
+      <Filter>Source Files\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectAdvCamSystem.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectAI.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectBoids.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectClient.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectGame.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectInput.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectLanguage.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectPlayer.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectRenderer.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectServer.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectServerSlot.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectSpectator.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectStream.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectSynched2DTable.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectVehicle.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptObjectWeaponClass.cpp">
+      <Filter>Source Files\ScriptObjects</Filter>
+    </ClCompile>
+    <ClCompile Include="XServer.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="XServerRules.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="XServerSlot.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="XSnapshot.cpp">
+      <Filter>Source Files\GameServer</Filter>
+    </ClCompile>
+    <ClCompile Include="XSystemBase.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="XSystemClient.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="XSystemDummy.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="XSystemEntities.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="XSystemServer.cpp">
+      <Filter>Source Files\GameSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponClass.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponSystemEx.cpp">
+      <Filter>Source Files\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="XClient.cpp">
+      <Filter>Source Files\GameClient</Filter>
+    </ClCompile>
+    <ClCompile Include="XClientSnapshot.cpp">
+      <Filter>Source Files\GameClient</Filter>
+    </ClCompile>
+    <ClCompile Include="BugsFlock.cpp">
+      <Filter>Source Files\Flock</Filter>
+    </ClCompile>
+    <ClCompile Include="Flock.cpp">
+      <Filter>Source Files\Flock</Filter>
+    </ClCompile>
+    <ClCompile Include="XplayerVehicle.cpp">
+      <Filter>Source Files\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="XVehicle.cpp">
+      <Filter>Source Files\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="XVehicleProxy.cpp">
+      <Filter>Source Files\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="XVehicleProxyHeli.cpp">
+      <Filter>Source Files\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="XVehicleSystem.cpp">
+      <Filter>Source Files\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeDemoRecorder.cpp">
+      <Filter>Source Files\TimeDemoRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="XDemoMgr.cpp">
+      <Filter>Source Files\TimeDemoRecorder</Filter>
+    </ClCompile>
+    <ClCompile Include="AdvCamSystem.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Spectator.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SynchedRandomSeed.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="XPlayer.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="XPlayerCamera.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="XPlayerLight.cpp">
+      <Filter>Source Files\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="AIHandler.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="XObjectProxy.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="XPuppetProxy.cpp">
+      <Filter>Source Files\AI</Filter>
+    </ClCompile>
+    <ClCompile Include="BitStream_Base.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="BitStream_Compressed.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="NetEntityInfo.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="XEntityProcessingCmd.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="XNetwork.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="XNetworkStats.cpp">
+      <Filter>Source Files\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityClassRegistry.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameActionInput.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCallbacks.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameClientServer.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDevMode.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEquipPacks.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEvents.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMemStats.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMisc.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMods.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameMovieUser.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRadar.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTagPoints.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptTimerMgr.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="XArea.cpp">
+      <Filter>Source Files\GameFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="XSurfaceMgr.cpp">
+      <Filter>Source Files\Materials</Filter>
+    </ClCompile>
+    <ClCompile Include="StringTableMgr.cpp">
+      <Filter>Source Files\Localization</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLoading.cpp">
+      <Filter>Source Files\GameSerialization</Filter>
+    </ClCompile>
+    <ClCompile Include="Synched2DTable.cpp">
+      <Filter>Source Files\Scoreboard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ScriptObjectUI.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UICheckBox.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComboBox.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UICVars.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDivX_Video.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEditBox.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIListView.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMessages.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScreen.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScrollBar.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIStatic.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UISystem.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIVideoPanel.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWidget.h">
+      <Filter>Source Files\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="BugsFlock.h">
+      <Filter>Source Files\Flock</Filter>
+    </ClInclude>
+    <ClInclude Include="Flock.h">
+      <Filter>Source Files\Flock</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeDemoRecorder.h">
+      <Filter>Source Files\TimeDemoRecorder</Filter>
+    </ClInclude>
+    <ClInclude Include="Synched2DTable.h">
+      <Filter>Source Files\Scoreboard</Filter>
+    </ClInclude>
+    <ClInclude Include="AdvCamSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitStream_Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BitStream_Compressed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMovieUser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CryGame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityClassRegistry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameMods.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameShared.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IngameDialog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IXSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NetEntityInfo.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptTimerMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Spectator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="StringTableMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SynchedRandomSeed.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TagPoint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIHud.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XArea.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XClientSnapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XDemoMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XEntityProcessingCmd.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XNetwork.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XNetworkStats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XObjectProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XPuppetProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XServerRules.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XServerSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSnapshot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSurfaceMgr.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSystemBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSystemClient.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSystemDummy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSystemEntities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XSystemServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XVehicle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XVehicleProxy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="XVehicleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FireType.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponClass.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponSystemEx.h">
+      <Filter>Header Files\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectAdvCamSystem.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectAI.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectBoids.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectClient.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectGame.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectInput.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectLanguage.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectPlayer.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectRenderer.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectServer.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectServerSlot.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectSpectator.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectStream.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectSynched2DTable.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectVehicle.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptObjectWeaponClass.h">
+      <Filter>Header Files\ScriptObjects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="UITodo.txt">
+      <Filter>Source Files\UI</Filter>
+    </Text>
+    <Text Include="ReadMe.txt">
+      <Filter>Source Files\GameClient</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

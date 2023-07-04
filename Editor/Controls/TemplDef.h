@@ -67,7 +67,7 @@
 
 #endif // _AFXDLL
 
-#else
+#elif !defined(WIN64)
 
 #ifdef _AFXDLL
 #define BEGIN_TEMPLATE_MESSAGE_MAP(theTemplArgs, theClass, baseClass) \

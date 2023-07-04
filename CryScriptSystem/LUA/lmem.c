@@ -23,8 +23,13 @@ int gLuaAllocatedMemory = 0;
 
 #ifndef _DEBUG
 
+#if defined(DONT_USE_CRY_MEMORY_MANAGER)
+	#define l_realloc(b,os,s)	realloc(b,s)
+	#define l_free(b,s)				free(b)
+#else
 	#define l_realloc(b,os,s)	CryModuleReallocSize(b,os,s)
 	#define l_free(b,s)				CryModuleFreeSize(b,s)
+#endif
 
 #else
 

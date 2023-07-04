@@ -111,12 +111,12 @@ public:
 
 		void construct(pointer _Ptr, const _Ty& _Val)
 		{	// construct object at _Ptr with value _Val
-			std::_Construct(_Ptr, _Val);
+			::new(static_cast<void *>(_Ptr)) value_type(_Val);
 		}
 
 		void destroy(pointer _Ptr)
 		{	// destroy object at _Ptr
-			std::_Destroy(_Ptr);
+			_Ptr->~value_type();
 		}
 
 		size_t max_size() const

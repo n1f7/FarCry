@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a483e13b-6351-4085-b0c0-e47fcf95f41d}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{005178d1-39cc-4635-a8da-e3024e4d4f3b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{4afdcd7a-4f55-4bba-bc9b-29447828b563}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Interfaces">
+      <UniqueIdentifier>{8774cb5d-9133-46b6-8980-be4ad663cc2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NvTriStrip">
+      <UniqueIdentifier>{3c25f947-e773-4f54-863c-46aafd0e9678}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{1fc3ab0a-2a5e-4535-814f-aa4e08dba2cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{7d810e00-a8f9-44ab-abc6-198b2aef5b87}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CfgFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkFileReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdLine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Config.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtensionManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FileUtil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceCompiler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\NvTriStrip.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\NvTriStripObjects.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\RenderPCH.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="CgfUtils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CryBoneDesc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CryBoneHierarchyLoader.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CryChunkedFile.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="CryVertexBinding.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CfgFile.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkFileReader.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdLine.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConvertContext.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtensionManager.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMapping.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FileUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PathUtil.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResComDefs.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceCompiler.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLog.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PortableString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ICfgFile.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IConfig.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IConvertor.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IRCLog.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="IResCompiler.h">
+      <Filter>Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\NvTriStrip.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\NvTriStripObjects.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\RenderPCH.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\VertexCache.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="CgfUtils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CryBoneDesc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CryBoneHierarchyLoader.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CryChunkedFile.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="CryVertexBinding.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

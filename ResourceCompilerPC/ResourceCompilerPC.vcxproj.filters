@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Skin">
+      <UniqueIdentifier>{7b11e5cf-cd0a-4234-b40d-67bf86ebba70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Skin\DataSources">
+      <UniqueIdentifier>{66489477-b4d7-4fd2-bb01-0232fae91e98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Front-End">
+      <UniqueIdentifier>{d7708c87-09fd-43f6-80f0-5325568621d9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{136eb5f1-10d7-485b-a990-d50c2de9012b}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Support">
+      <UniqueIdentifier>{ec55ca53-b05f-4ebe-ab56-33514211f404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shared with Animation">
+      <UniqueIdentifier>{36fc085f-b09b-4c5c-a093-aa4e6b3bee22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NvTriStrip">
+      <UniqueIdentifier>{61349fa7-8c20-4c91-8761-595920a33a4b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stencil Shadows">
+      <UniqueIdentifier>{68c1f3bf-f33d-4d86-ab29-b1334da5d569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="StatCGFCompiler">
+      <UniqueIdentifier>{20ed4a34-2a93-4f20-abeb-148ff0f878cd}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ResourceCompilerPlugin.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CrySkinBase.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinBasisBuilder.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinBuilder.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinBuilderBase.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinFull.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinMorph.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinMorphBuilder.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="CrySkinRigidBasis.cpp">
+      <Filter>Skin</Filter>
+    </ClCompile>
+    <ClCompile Include="SkinDataSources.cpp">
+      <Filter>Skin\DataSources</Filter>
+    </ClCompile>
+    <ClCompile Include="CgfConvertor.cpp">
+      <Filter>Front-End</Filter>
+    </ClCompile>
+    <ClCompile Include="CgfUtils.cpp">
+      <Filter>Front-End</Filter>
+    </ClCompile>
+    <ClCompile Include="GC_CgfConverter.cpp">
+      <Filter>Front-End</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceCompilerPC.cpp">
+      <Filter>Front-End</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Front-End</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderMeshBuilder.cpp">
+      <Filter>Support</Filter>
+    </ClCompile>
+    <ClCompile Include="BoneLightBindInfo.cpp">
+      <Filter>Shared with Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="ChunkFileReader.cpp">
+      <Filter>Shared with Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CryBoneDesc.cpp">
+      <Filter>Shared with Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="CryVertexBinding.cpp">
+      <Filter>Shared with Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="FileMapping.cpp">
+      <Filter>Shared with Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SSEUtils.cpp">
+      <Filter>Shared with Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\NvTriStrip.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="NvTriStrip\NvTriStripObjects.cpp">
+      <Filter>NvTriStrip</Filter>
+    </ClCompile>
+    <ClCompile Include="StencilShadowConnectivityBuilder.cpp">
+      <Filter>Stencil Shadows</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\CryStaticModel.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\File.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\Geom.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\Helper.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\Light.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\Meshidx.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\Node.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\StatCGFCompiler.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\StatCGFCompilerLB.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\StatCGFCompilerLBSerialize.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\StatCGFShadVol.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+    <ClCompile Include="StatCGFCompiler\StatObjPhysics.cpp">
+      <Filter>StatCGFCompiler</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CrySkinBase.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinBasisBuilder.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinBuilder.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinBuilderBase.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinFull.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinMorph.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinMorphBuilder.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinRigidBasis.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="CrySkinTypes.h">
+      <Filter>Skin</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinDataSources.h">
+      <Filter>Skin\DataSources</Filter>
+    </ClInclude>
+    <ClInclude Include="CalConvertor.h">
+      <Filter>Front-End</Filter>
+    </ClInclude>
+    <ClInclude Include="CgfConvertor.h">
+      <Filter>Front-End</Filter>
+    </ClInclude>
+    <ClInclude Include="GC_CgfConverter.h">
+      <Filter>Front-End</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceCompilerPC.h">
+      <Filter>Front-End</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Front-End</Filter>
+    </ClInclude>
+    <ClInclude Include="AutoFile.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GAME01\CryCommon\CryCompiledFile.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="MathUtils.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderMeshBuilder.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="TangentSpaceCalculation.h">
+      <Filter>Support</Filter>
+    </ClInclude>
+    <ClInclude Include="BoneLightBindInfo.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="ChunkFileReader.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CryAnimationInfo.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CryBoneDesc.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="CryVertexBinding.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="FileMapping.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SSEUtils.h">
+      <Filter>Shared with Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\NvTriStrip.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\NvTriStripObjects.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\RenderPCH.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="NvTriStrip\VertexCache.h">
+      <Filter>NvTriStrip</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilShadowConnectivity.h">
+      <Filter>Stencil Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="StencilShadowConnectivityBuilder.h">
+      <Filter>Stencil Shadows</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\BaseObj.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\CryStaticModel.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\File.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\Geom.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\Helper.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\Light.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="..\CryCommon\MeshIdx.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\Node.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\StatCGFCompiler.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+    <ClInclude Include="StatCGFCompiler\StatCGFShadowVolume.h">
+      <Filter>StatCGFCompiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="CrySkinAMD64.asm">
+      <Filter>Skin</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

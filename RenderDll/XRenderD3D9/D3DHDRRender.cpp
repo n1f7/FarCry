@@ -2378,7 +2378,7 @@ bool HDR_RenderStar()
   const CStarDef& starDef = g_GlareDef.m_starDef;
   const float fTanFoV = atanf(D3DX_PI/8) ;
   const D3DXVECTOR4 vWhite( 1.0f, 1.0f, 1.0f, 1.0f );
-  static const s_maxPasses = 3 ;
+  static const int s_maxPasses = 3 ;
   static const int nSamples = 8 ;
   static D3DXVECTOR4 s_aaColor[s_maxPasses][8] ;
   static const D3DXCOLOR s_colorWhite(0.63f, 0.63f, 0.63f, 0.0f) ;

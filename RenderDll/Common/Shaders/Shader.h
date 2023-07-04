@@ -563,8 +563,6 @@ public:
   virtual int  mfVertexFormat(bool &bUseTangents, bool &bUseLM) = 0;
 };
 
-void SkipCharacters(char **buf, const char *toSkip);
-
 _inline char *sGetFuncName(const char *pFunc)
 {
   static char func[128];

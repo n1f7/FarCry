@@ -190,7 +190,7 @@ public:
 
 	virtual BOOL IsCreated() { return IsWindow(m_hWnd); };
 
-	virtual MakeChild()
+	virtual void MakeChild()
 	{
 		_TinyAssert(IsCreated());
 		DWORD dwStyle = GetWindowLong(m_hWnd, GWL_STYLE);

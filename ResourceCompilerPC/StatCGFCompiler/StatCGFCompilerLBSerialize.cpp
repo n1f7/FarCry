@@ -18,6 +18,7 @@
 #include "Dbghelp.h"
 #include "FileUtil.h"
 #include "PathUtil.h"
+#include "list2.h"
 #include "..\ResourceCompilerPC.h"
 
 #include "StatCGFCompiler.h"

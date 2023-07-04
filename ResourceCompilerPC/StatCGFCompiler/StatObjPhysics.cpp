@@ -15,11 +15,14 @@
 
 #include "StdAfx.h"
 
+#include "list2.h"
 #include "StatCGFCompiler.h"
 
 #include "MeshIdx.h"
 
 #include "SerializeBuffer.h"
+
+#include "IRCLog.h"
 
 #define MESH_PHYSIC 0
 #define MESH_OBSTRUCT 1

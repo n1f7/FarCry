@@ -59,9 +59,8 @@ unsigned int CSystem::GetCompressedFileSize(char *filename)
 
 	unsigned int bitlen;
 	gzFile f = gzdopen(fileno(pFile), "rb9");
-	gzread(f, &bitlen, sizeof(int));
+	gzread(f, &bitlen, sizeof(bitlen));
 	gzclose(f);
-	fclose(pFile);
 	return bitlen;
 }
 
@@ -85,7 +84,6 @@ unsigned int CSystem::ReadCompressedFile(char *filename, void *data, unsigned in
 	assert(bitlen<=maxbitlen);  // FIXME: nicer if caller doesn't need to know buffer size in advance
 	gzread(f, data, BITS2BYTES(bitlen));
 	gzclose(f);
-	fclose(pFile);
 #else	
 	fread(pFile, &bitlen, sizeof(int));
 	assert(bitlen<=maxbitlen);  // FIXME: nicer if caller doesn't need to know buffer size in advance

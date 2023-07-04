@@ -21,6 +21,7 @@
 
 #define ISystem IRCLog
 
+#include "IRCLog.h"
 #include "meshidx.h"
 #include "MakMatInfoFromMAT_ENTITY.h"
 

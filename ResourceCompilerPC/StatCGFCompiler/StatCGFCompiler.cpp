@@ -20,8 +20,12 @@
 #include <DbgHelp.h>
 #include "ConvertContext.h"
 #include "iconfig.h"
+#include "list2.h"
+#include "..\ResourceCompilerPC.h"
 #include "StatCGFCompiler.h"
 #define ISystem IRCLog
+#include "IRCLog.h"
+#include "IResCompiler.h"
 #include "meshidx.h"
 #include "statcgfshadvol.h"
 
