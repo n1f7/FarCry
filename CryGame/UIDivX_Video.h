@@ -327,7 +327,10 @@ public:
 		void Release() {
 			for( DWORD i=0; i<m_dwNumBuffers; i++ )
 			{
-        SAFE_RELEASE( m_apDSBuffer[i] ); 
+				if (m_apDSBuffer) {
+				  m_apDSBuffer[i]->Release();
+				  m_apDSBuffer[i] = 0;
+				}
 			}
 			SAFE_DELETE_ARRAY( m_apDSBuffer ); 
 		}
